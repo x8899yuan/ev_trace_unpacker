@@ -1,0 +1,28 @@
+__pycache__/
+.pytest_cache/
+*.pyc
+
+venv/
+.venv/
+
+temp/
+temp_extract/
+temp_zip_extract/
+
+*.blf
+*.pcap
+*.dlt
+
+data/
+
+# Archive files
+*.zip
+*.7z
+*.7z.*
+
+# Extracted archives
+*_extracted/
+
+# Test archives
+archives/*.7z*
+archives/*_extracted/
